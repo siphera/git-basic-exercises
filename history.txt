@@ -1,0 +1,88 @@
+    1  ls
+    2  pwd
+    3  ls =la
+    4  ls -la
+    5  cd
+    6  code .
+    7  ls /mnt/
+    8  cd /mnt/c/Users/Maestro/Desktop/
+    9  git status
+   10  git -v
+   11  git --version
+   12  apt-get install git
+   13  sudo add-apt-repository ppa:git-core/ppa -y
+   14  sudo apt-get update
+   15  sudo apt-get install git -y
+   16  git --version 
+   17  git --version
+   18  cd Desktop/umuzi/
+   19  mkdir git-basic-exercises
+   20  cd git-basic-exercises/
+   21  ls -a
+   22  git init
+   23  git config --global init.defaulBranch "main"
+   24  git branch
+   25  git status
+   26  rm .git/
+   27  rmdir .git/
+   28  rmdir -r .git/
+   29  rmdir -fr .git/
+   30  rmdir --help
+   31  rmdir --fr .git/
+   32  rmdir --rf .git/
+   33  rmdir --r .git/
+   34  rmdir .git/
+   35  git status
+   36  git init
+   37  git status
+   38  git config --global init.defaultBranch main
+   39  git status
+   40  git init
+   41  git status
+   42  touch README.md
+   43  git status
+   44  git log
+   45  git add README.md 
+   46  git reset README.md 
+   47  git status
+   48  git add README.md 
+   49  git commit -m "initial commit"
+   50  git sta
+   51  git status 
+   52  git log
+   53  nano README.md 
+   54  cat README.md 
+   55  git add README.md 
+   56  git commit -m "second commit"
+   57  nano README.md 
+   58  cat README.md 
+   59  git add README.md 
+   60  git commit -m "third commit"
+   61  git config --global user.name "siphera"
+   62  git config --global user.email "salmansiphenkosi@gmail.com"
+   63  git commit --amend --reset-author
+   64  git log
+   65  git rebase -r --root --exec "git commit --amend --no-edit --reset-author"
+   66  git log
+   67  cat README.md 
+   68  git checkout 4c75a8939cb0cbffde9e485c89bb829f1f6eb26d
+   69  cat README.md 
+   70  git checkout main 
+   71  cat README.md 
+   72  git branch
+   73  git branch milkshake-flavours
+   74  git branch
+   75  git checkout milkshake-flavours 
+   76  git branch
+   77  nano milkshakes.md
+   78  cat milkshakes.md 
+   79  git status
+   80  git add milkshakes.md 
+   81  git commit -m "added initial flavours"
+   82  git log
+   83  git checkout main
+   84  git branch history
+   85  git log
+   86  git branch
+   87  git checkout history 
+   88  history > history.txt
